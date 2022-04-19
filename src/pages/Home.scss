@@ -1,0 +1,10 @@
+.home{
+    display: flex;
+    margin: 5px;
+ &-menu{
+    width: 250px;
+ }
+ &-right{
+     margin-left: 50px;
+ }
+}

@@ -1,0 +1,25 @@
+.menu{
+    &-list{
+        list-style-type: none;
+        &-item{
+          margin-top: 40px;
+          border: 1px solid #000;
+          border-radius: 7px;
+        }
+        &-item:hover{
+            
+        }
+    }
+}
+.link{
+    text-decoration: none;
+    font-size: 24px;
+    color: green;
+    align-items: center;
+    &-name{
+        margin-left: 15px;
+    }
+}
+.link:hover{
+    color: #000;
+}
