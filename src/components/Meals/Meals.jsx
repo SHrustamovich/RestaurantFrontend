@@ -1,6 +1,5 @@
 import './Meals.scss'
 import { useQuery,gql, useMutation } from '@apollo/client';
-import { useState } from 'react';
 const Branches = gql`
 query{
     allBranches{
